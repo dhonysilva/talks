@@ -45,6 +45,42 @@ Here is an example of the presentation on fullscreen mode.
 - **Multiple Output Formats**: Export to HTML, PDF, PPTX, PNG, JPEG
 - **Marp Directives**: Special YAML frontmatter and comments for slide configuration
 
+Here is an example on how to create a slide, provided by the official [documentation](https://marp.app):
+
+```markdown
+---
+theme: gaia
+_class: lead
+paginate: true
+backgroundColor: #fff
+backgroundImage: url('https://marp.app/assets/hero-background.svg')
+---
+
+![bg left:40% 80%](https://marp.app/assets/marp.svg)
+
+# **Marp**
+
+Markdown Presentation Ecosystem
+
+https://marp.app/
+
+---
+
+# How to write slides
+
+Split pages by horizontal ruler (`---`). It's very simple! :satisfied:
+
+# Slide 1
+
+foobar
+
+---
+
+# Slide 2
+
+foobar
+```
+
 
 ### Project-local instalation
 
